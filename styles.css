@@ -1,0 +1,201 @@
+body {
+    background-color: #000e5e;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    scroll-padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    background-color: #0992ad;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    z-index: 50;
+}
+
+nav a {
+    Color: White;
+    height: 100%;
+    line-height: 30px;
+    Font-weight: Bold;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    z-index: 100;
+}
+
+nav div {
+    height: 100%;
+    align-items: center;
+}
+
+nav div:hover {
+    background: #143d97;
+    color: grey;
+}
+
+main {
+    position: relative;
+    top: 30px;
+    left: 0;
+    width: 100%;
+
+}
+
+#title {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#subtitle {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.photo {
+    max-width: auto;
+    height: 100px;
+}
+
+#Intro {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+canvas {
+    position: fixed;
+    top: 30;
+    left: 0;
+    z-index: -100;
+    background-color: black;
+    border: none;
+    stroke: white;
+    margin: 0;
+    padding: 0;
+}
+
+#photo_gallery {
+    justify-content: flex-end;
+}
+
+#intro_text {
+    color: white;
+}
+
+.project_container {
+    width: 250px;
+    height: 300px;
+    border-style: double;
+    margin-bottom: 40px;
+    z-index: 1;
+    background-color:#000e5e77
+}
+
+.section_head_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section_heading {
+    text-align: center;
+    color: white
+
+}
+
+.Pcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.project_image {
+    width: 75%;
+    height: 50%;
+    border: solid black 2px;
+    margin: 5% auto;
+}
+
+.project_link, .project_demo {
+    width: 75%;
+    height: 10%;
+    margin: 5% auto;
+}
+
+.project_title h4 {
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
+
+.project_title {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight:bolder;
+    font-size: 18;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+
+.demo {
+    background-color:green;
+}
+
+.button:hover {
+    background-color:rgb(2, 26, 243)
+}
+
+.button:active {
+    background-color:#0a88db
+}
+
+.fa-brands, .fa-regular, .fa-solid {
+    font-size: 2em;
+    color: white;
+}
+
+.contact_text {
+    font-size: 1.5em;
+    color: white;
+    display: inline-block;
+    margin: 0;
+
+}
+
+.brand_container {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contact_container {
+    text-align: center;
+
+}
