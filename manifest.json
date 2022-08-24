@@ -1,0 +1,14 @@
+{
+    "name": "Prefill MS Form Extension",
+    "description": "This extension may be used to prefill questions in a Microsoft Form by adding text to the url",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["https://*.forms.office.com/*"],
+        "js": ["start.js"],
+        "run_at": "document_idle"
+    }],
+    "web_accessible_resources": [{
+        "resources": ["prefill.js"],
+        "matches": ["https://*.forms.office.com/*"]}]
+}
