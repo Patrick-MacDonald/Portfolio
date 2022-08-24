@@ -1,9 +1,3 @@
-//chrome.runtime.onInstalled.addListener(() => {
-    //window.addEventListener('popstate', function(event) {
-        
-    
-    
-        
 function prefill() {
     let url = window.location.href
     let ind = url.lastIndexOf("#")
@@ -29,6 +23,3 @@ function prefill() {
     let target = document.body
     observer.observe(target, options)
 })()
-
-    //})
-//})*/
